@@ -1,0 +1,55 @@
+@import 'start';
+@import 'vaiables';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon-bar {
+    position:fixed;
+    display: block;
+    right: -205px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    a {
+        margin-right: 0;
+        display: block;
+        text-align: left;
+        padding: 16px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        width: 215px;
+        transition: all 1s ease;
+        &:hover{
+            transform: translateX(-205px);
+        }
+        i{
+            width: 20px;
+            height: 20px;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.blog {
+    background-color: $blogColor;
+}
+
+.facebook {
+    background-color: $facebookColor;
+}
+
+.twitter {
+    background-color: $twitterColor;
+}
+
+.github {
+    background-color: $githubColor;
+}
+
+.linkedin {
+    background-color: $linkedinColor;
+}
